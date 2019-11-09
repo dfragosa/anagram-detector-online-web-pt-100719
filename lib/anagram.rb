@@ -12,10 +12,12 @@ class Anagram
   end 
   
   def match(array)
-    array.each do |word|
-      puts word.split(" ")
+    array.each do |words|
+     words.split(" ") 
+   
+      #end     
     end 
   end
  # binding.pry
   
-end 
+end
