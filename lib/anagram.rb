@@ -13,7 +13,7 @@ class Anagram
   
   def match(array)
     array.each do |words|
-     @word.split(" ").sort == words.split(" ")
+     @word.split(" ").sort == words.split(" ").sort 
    
       #end     
     end 
